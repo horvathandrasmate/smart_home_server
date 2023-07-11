@@ -1,6 +1,5 @@
 services:
   web: 
-    privileged: true
     build:
       context: app
       target: dev-envs

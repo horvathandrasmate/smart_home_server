@@ -1,5 +1,6 @@
 services:
   web: 
+    privileged: true
     build:
       context: app
       target: builder
